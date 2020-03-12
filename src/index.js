@@ -4,7 +4,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Hehe');
+  res.send('Hehe hooks');
 })
 
 app.listen(process.env.SERVER_PORT, () => {
